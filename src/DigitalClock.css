@@ -1,0 +1,54 @@
+/* DigitalClock.css */
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(175deg, #07aa63, #6c08b9);
+    background-size: 100% 100%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+  }
+  
+  .clock-container {
+    background: rgba(54, 54, 54, 0.2);
+    padding: 30px 60px;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    text-align: center;
+    animation: fadeIn 0.3s ease-in-out;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .clock-container:hover {
+    box-shadow: 0 12px 48px rgba(0, 0, 0, 0.5);
+  }
+  
+  .clock-time {
+    font-size: 5rem;
+    font-weight: bold;
+    letter-spacing: 0.15rem;
+    color: #ffffff;
+    cursor: default;
+    user-select: none;
+    animation: fadeIn 1s ease-in-out;
+  }
+
+  .credits {
+    font-size: 1rem;
+    font-style: italic;
+    color: #ffffff;
+    cursor: default;
+    user-select: none;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }

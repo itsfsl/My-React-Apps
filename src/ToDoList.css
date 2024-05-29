@@ -1,0 +1,101 @@
+/* ToDoList.css */
+body {
+    background-color: #161616;
+}
+.todo-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #2d2d2d;
+    font-family: Arial, sans-serif;
+    color: #f9f9f9;
+}
+
+.todo-title {
+    text-align: center;
+    font-size: 24px;
+    color: #ebebeb;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.todo-input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.todo-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #333;
+    color: #f9f9f9;
+}
+
+.add-button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #009a05;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+    background-color: #19d122;
+}
+
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #5b5b5b;
+    border: 1px solid #555;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.task-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button {
+    background-color: #9a0a00;
+    color: white;
+}
+
+.delete-button:hover {
+    background-color: #e53935;
+}
+
+.up-button, .down-button {
+    background-color: #006c90;
+    color: white;
+}
+
+.up-button:hover, .down-button:hover {
+    background-color: #009fe9;
+}
